@@ -1,0 +1,1 @@
+package com.example.android.wearable.composestarter.presentation.screensimport androidx.compose.runtime.Composableimport androidx.navigation.NavControllerimport androidx.wear.compose.material.Text@Composablefun HomeScreen(navController: NavController) {    Text(text = "Hello from Home")}

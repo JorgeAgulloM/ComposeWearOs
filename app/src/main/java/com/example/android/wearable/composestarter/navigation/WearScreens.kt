@@ -1,0 +1,1 @@
+package com.example.android.wearable.composestarter.navigationenum class WearScreens {    SplashScreen,    HomeScreen;    companion object {        fun fromRoute(route: String?): WearScreens = when (route?.substringBefore("/")) {            SplashScreen.name -> SplashScreen            else -> HomeScreen        }    }}
